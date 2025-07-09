@@ -23,11 +23,11 @@ The project simulates how smart cities can optimize parking revenue and traffic 
 
 To build **two levels of intelligent pricing models** that increase in complexity:
 
-### ✅ Model 1: Baseline Linear Model
+### Model 1: Baseline Linear Model
 - Linear price increase with occupancy.
 - `Price(t+1) = Price(t) + α × (Occupancy / Capacity)`
 
-### ✅ Model 2: Demand-Based Model
+### Model 2: Demand-Based Model
 - Price influenced by:
   - Occupancy Rate
   - Queue Length
@@ -39,7 +39,7 @@ To build **two levels of intelligent pricing models** that increase in complexit
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component                | Technology                      |
 |-------------------------|----------------------------------|
@@ -51,7 +51,7 @@ To build **two levels of intelligent pricing models** that increase in complexit
 
 ---
 
-## 🧪 Data Description
+## Data Description
 
 - **14 parking lots** × **73 days** × **18 time slots/day**
 - Data Features:
